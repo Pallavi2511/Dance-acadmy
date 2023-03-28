@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Poppins:wght@900&family=Red+Hat+Display:wght@300&family=Red+Hat+Text:wght@300&family=Source+Sans+Pro:ital,wght@1,200&display=swap');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+  
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+    
+}
+#logo img{
+    height: 46px;
+    filter:inherit;
+}
+
+#navbar{
+    padding: 18px 14px;
+    background-color: rgb(239, 184, 184);
+    font-family: 'Inconsolata', monospace;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 30px;
+    color: rgb(23, 21, 21);
+    font-size: 26px;
+    font-size: bold;
+}
+
+#navbar li a:hover{
+    color: red;
+    font-size: bold;
+}
+
+#introSection{
+    padding-bottom: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Inconsolata', monospace;
+    align-items: center;
+    font-size: 50px;
+    background: center/cover no-repeat url("/static/bg.jpg");
+    height: 418px;
+    background-color: red;
+    opacity: 0.8;
+}
+#introSection div.small{
+    font-size: 30px;
+    padding: 3px;
+}
+#introSection div.smaller{
+    font-size: 28px;
+    padding: 3px;
+}
+#missionSection{
+    margin: auto;
+    width: 68%;
+    height: 300px;
+    display: block;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+#missionSection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 27%;
+    height: 180px;
+    margin: 26px 30px;
+    display: inline-block;
+}
+
+.card h3{
+    text-align: center;
+    margin: 12px;
+    font-family: 'Inconsolata', monospace;  
+}
+
+.card-box{
+    display: flex;
+    align-items:center;
+    justify-content:center
+
+}
+.card-img{
+    height: 79px;
+    padding: 3px 101px;
+    margin: 5px 9px;
+}
+
+
+.card-img img{
+    height: inherit;
+    align-items: center;
+
+}
+
+.card-content p{
+    text-align: center;
+    font-size: 15px;
+
+}
+
+
+#sponsorSection {
+    height: 300px;
+    background-color: rgb(221 221 219);
+    font-family: 'Inconsolata', monospace;
+
+}
+
+#sponsorSection h2{
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 12px;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+#sponsors{
+  
+    height: 100px;
+    max-width: 1000px;
+    margin: auto;
+}
+.spImage{
+    height: 128px;
+    align-items: center;
+    margin: 50px;
+}
+
+/* #ContactUs{
+   height: 400px;
+    background-color: rgb(213, 157, 145);
+    font-family: 'Inconsolata', monospace;
+    
+} */
+.container{
+    min-height: 100vh;
+    margin: 43px 0;
+    
+}
+.container h2{
+    font-family: 'Inconsolata', monospace;  
+    margin: 54px;
+
+
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.myinput{
+   
+    font-size: 15px;
+    width: 60%;
+    padding: 10px 7px;
+    margin: 8px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+   outline: none;
+}
+
+.btn{
+    display: block;
+    font-weight: bold;
+    background-color: rgb(215, 212, 212);
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 23px auto;
+    padding: 13px 34px;
+    cursor: pointer;
+    outline: none;
+    font-size: 15px;
+
+}
+#ContactUs h2{
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 12px;
+    font-weight: bold;
+    font-size: 30px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgb(46, 45, 45);
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Inconsolata', monospace; ;
+
+}

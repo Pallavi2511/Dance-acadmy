@@ -1,0 +1,67 @@
+//- index.pug
+doctype html
+html
+  head
+    title Pratik dance acadamy
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top 
+        ul
+            div#logo
+                img(src="/static/img/1.png")
+                
+            li #[a(href="/") Home] 
+            li #[a(href="/") Services] 
+            li #[a(href="/") Gallery]
+            li #[a(href="/") About] 
+            li #[a(href="/") Contact Us]
+  
+
+    section#introSection 
+        div Welcome to Pratik's Dance Acadamy
+        div.small Dance is like Dreaming
+        div.smaller with your feet!
+    
+    section#missionSection 
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+                div.card-box 
+                    div.card-img
+                        img(src="/static/img/2.png")
+
+                div.card-content
+                    p Lorem ipsum dolor sit amet. 
+        div.card
+            h3 Dance to Learn 
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/3.png")
+
+                div.card-content
+                    p Lorem ipsum dolor sit amet.
+
+        div.card
+            h3 Expert Training
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/2.png")
+                div.card-content
+                    p Lorem ipsum dolor sit amet.
+
+    section#sponsorSection 
+        h2 Section for sponsor 
+        div#sponsors
+            img(src="/static/img/fb.png", alt="Facebook", class="spImage")
+            img(src="/static/img/youtube.png", alt="youtube", class="spImage")
+            img(src="/static/img/twitter.jpg", alt="Twitter", class="spImage")
+            img(src="/static/img/apple.png", alt="Apple", class="spImage")
+         
+    footer#footer 
+        | Copyright © 2023 DanceAcadamy.com | All Rights Reserved.
+
+
+    
+    script
+      include ../static/index.js
